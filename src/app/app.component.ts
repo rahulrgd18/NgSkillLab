@@ -5,7 +5,10 @@ import { CounterComponent } from './components/counter/counter.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NavbarComponent, CounterComponent],
+  imports: [
+    // RouterOutlet, 
+    NavbarComponent, CounterComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
