@@ -1,0 +1,30 @@
+<p-card header="Counter App" styleClass="w-full md:w-30rem text-center">
+  <div class="flex justify-content-center align-items-center mt-3">
+    
+    <!-- Decrement Button -->
+    <button
+      pButton
+      icon="pi pi-minus"
+      type="button"
+      class="p-button-rounded p-button-secondary"
+      (click)="decrement()"
+      title="Decrement"
+      aria-label="Decrement"
+    ></button>
+
+    <!-- Counter Display -->
+    <span class="text-xl font-bold px-4">{{ count }}</span>
+
+    <!-- Increment Button -->
+    <button
+      pButton
+      icon="pi pi-plus"
+      type="button"
+      class="p-button-rounded p-button-primary"
+      (click)="increment()"
+      title="Increment"
+      aria-label="Increment"
+    ></button>
+    
+  </div>
+</p-card>
