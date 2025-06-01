@@ -4,6 +4,8 @@ NgSkillLab is a personal Angular project repository where I implement and experi
 
 ---
 
+![App Preview](./image/app.png)
+
 ## 📦 Tech Stack
 
 - **Angular** (latest)
